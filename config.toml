@@ -1,0 +1,43 @@
+baseURL = 'jonro.io'
+languageCode = 'en-us'
+title = 'Jon Ro'
+theme        = "hermit"
+
+[author]
+  name = "Jon Ro"
+  
+  
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  homeSubtitle = "Software Engineer, FFXIV Healer, and Pizza Enthusiast"
+  themeColor = "#607287"
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = false  # Add a related content section to all single posts page
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/jonro_"
+
+  [[params.social]]
+    name = "twitch"
+    url = "https://www.twitch.tv/jon_ro"
+
+  [[params.social]]
+    name = "youtube"
+    url = "https://www.youtube.com/exVanquish"
+	
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 1
+
+#  [[menu.main]]
+#    name = "Dragonsong's Reprise Guide"
+#    url = "DSRGuide"
+#    weight = 10
